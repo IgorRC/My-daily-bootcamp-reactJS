@@ -1,5 +1,6 @@
 import React from "react";
 import '../hoja-de-estilos/Navbar.css'
+import img from '../assets/logo/logo.svg'
 
 function Navbar() {
 
@@ -18,7 +19,7 @@ function Navbar() {
         </nav>
         <div class="header-logo">
           <a class="logo-link" href="index.html">
-            <img class="logo-img" src="./assets/logo.svg" alt="bootcamp logo" />
+            <img class="logo-img" src={img} alt="bootcamp logo" />
             <h2 class="logo-text">My Daily Bootcamp</h2>
           </a>
         </div>
