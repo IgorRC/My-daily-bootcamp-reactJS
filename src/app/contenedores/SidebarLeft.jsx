@@ -1,5 +1,5 @@
 import React from 'react'
-import '../estilos-componentes/SidebarLeft.css'
+import '../estilos-contenedores/SidebarLeft.css'
 import Team from '../../componentes/Team'
 import ProfileCard from '../../componentes/ProfileCard'
 
