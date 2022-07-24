@@ -1,1 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.main {
+    max-width: 1317px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
