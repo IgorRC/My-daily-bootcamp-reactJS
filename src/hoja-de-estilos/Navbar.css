@@ -35,6 +35,10 @@
     color: #788292;
     transition: 0.05s;
   }
+
+  .nav-item {
+    /* text-decoration: none; */
+  }
   
   .nav-link:hover {
     background-color: #f0f7ff;
@@ -78,6 +82,7 @@
   
   .nav-list {
     position: relative;
+    list-style: none;
   }
   
   .nav-link:hover::after,
@@ -96,6 +101,11 @@
     border-radius: 0 0 3px 3px;
     z-index: 100;
     transition: 0.4s;
+  }
+
+  .logo-link {
+    text-decoration: none;
+    display: flex;
   }
   
   .daily-content,
