@@ -53,6 +53,10 @@
     top: 0%;
     left: 62px;
   }
+
+  .logo-link {
+    text-decoration: none;
+  }
   
   .logo-img {
     margin-right: 8px;
@@ -108,15 +112,15 @@
     display: flex;
   }
   
-  .daily-content,
-  .sidebar-right,
-  .sidebar-left {
-    padding-top: 20px;
-  }
+
   
   .header {
     position: relative;
     min-width: 1441px;
     width: 1441px;
+  }
+
+  .nav-item {
+    list-style: none;
   }
   
