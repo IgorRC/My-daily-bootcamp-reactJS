@@ -1,7 +1,7 @@
 import React from 'react'
-import ProfileCard from './ProfileCard'
-import Team from './Team'
-import '../hoja-de-estilos/SidebarLeft.css'
+import '../estilos-componentes/SidebarLeft.css'
+import Team from '../../componentes/Team'
+import ProfileCard from '../../componentes/ProfileCard'
 
 function SidebarLeft() {
 
