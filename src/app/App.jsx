@@ -1,7 +1,8 @@
 import './App.css'
 import Navbar from '../componentes/Navbar'
-import SidebarLeft from "../componentes/SidebarLeft"
-
+import SidebarLeft from "./contenedores/SidebarLeft"
+import DailyContent from './contenedores/DailyContent'
+import SidebarRight from './contenedores/SidebarRight'
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
       <Navbar/>
       <div className='main'>
         <SidebarLeft/>
+        <DailyContent/>
+        <SidebarRight/>
       </div>
       
     </div>
