@@ -7,30 +7,30 @@ import imgFourth from "../assets/team/team-4.jpg";
 
 function Team() {
   return (
-    <div class="teams">
+    <div className="teams">
       <h2>My team</h2>
-      <div class="container-team">
-        <div class="date-teams1">
-          <a class="link-team" href="#">
-            <img class="team-img" src={imgFirts} alt="Alden Cantrell" />
-            <p class="text-teams">Alden Cantrell</p>
+      <div className="container-team">
+        <div className="date-teams1">
+          <a className="link-team" href="#">
+            <img className="team-img" src={imgFirts} alt="Alden Cantrell" />
+            <p className="text-teams">Alden Cantrell</p>
           </a>
         </div>
-        <div class="date-teams">
-          <a class="link-team" href="#">
-            <img class="team-img" src={imgSecond} alt="Thomas Crane" />
+        <div className="date-teams">
+          <a className="link-team" href="#">
+            <img className="team-img" src={imgSecond} alt="Thomas Crane" />
             <p>Thomas Crane</p>
           </a>
         </div>
-        <div class="date-teams">
-          <a class="link-team" href="#">
-            <img class="team-img" src={imgThird} alt="Miranda Shaffer" />
+        <div className="date-teams">
+          <a className="link-team" href="#">
+            <img className="team-img" src={imgThird} alt="Miranda Shaffer" />
             <p>Miranda Shaffer</p>
           </a>
         </div>
-        <div class="date-teams2">
-          <a class="link-team" href="#">
-            <img class="team-img" src={imgFourth} alt="Alvaro Mcgee" />
+        <div className="date-teams2">
+          <a className="link-team" href="#">
+            <img className="team-img" src={imgFourth} alt="Alvaro Mcgee" />
             <p>Alvaro Mcgee</p>
           </a>
         </div>

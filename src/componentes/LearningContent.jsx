@@ -1,7 +1,11 @@
 import React from "react";
 import "../hoja-de-estilos/LearningContent.css";
 
-function LearningContent() {
+function LearningContent({ setStateModal, state }) {
+  function inputPost() {
+    setStateModal(true);
+  }
+
   return (
     <div className="learning-content">
       <form className="learning-form">
@@ -9,6 +13,7 @@ function LearningContent() {
           type="text"
           className="learning-input"
           placeholder="What did you learn today Paul?"
+          onClick={inputPost}
         />
         <button className="learning-button" type="button">
           <svg
@@ -20,7 +25,7 @@ function LearningContent() {
           >
             <g opacity="0.5">
               <path
-                class="arrow"
+                className="arrow"
                 d="M8.23413 19L8.23413 1.08571"
                 stroke="#788292"
               />

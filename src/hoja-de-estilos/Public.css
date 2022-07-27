@@ -1,94 +1,88 @@
 .public {
-    position: relative;
-    background-color: white;
-    border-radius: 8px;
-    margin-top: 10px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left: 22px;
-    max-width: 622px;
-    margin-top: 28px;
-  }
-  
-  .public-date {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    padding: 10px;
-  }
-  
-  .link-public {
-    text-decoration: none;
-  }
-  
-  .public-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0;
-    background-color: white;
-    width: 40px;
-    border: none;
-    margin-top: 5px;
-    margin-right: 15px;
-  }
-  
-  .public-button img {
-    width: 18px;
-  }
-  
-  .public-button:hover {
-    background-color: white;
-    cursor: pointer;
-  }
-  
-  .public-button img:hover {
-    cursor: pointer;
-  }
-  
-  .date-conte {
-    display: flex;
-    gap: 5px;
-  }
-  
-  .date-img {
-    border-radius: 50px;
-    border: 2px solid white;
-    box-shadow: -2px 1px 5px -1px rgba(192, 192, 192, 1);
-  }
-  
-  .date-text {
-    padding: 4px;
-  }
-  
-  .date-text h3 {
-    margin: 0;
-    font-size: 15px;
-    color: #203758;
-  }
-  
-  .date-text p {
-    margin: 0;
-    font-size: 11px;
-    color: #788292;
-    padding-top: 4px;
-  }
-  
-  .text {
-    padding-right: 15px;
-    padding-bottom: 20px;
-    font-size: 14px;
-    color: #203758;
-  }
-  
-  .images {
-    display: flex;
-    gap: 12px;
-  }
-  
-  .sub-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 22px;
+  max-width: 622px;
+  margin-top: 28px;
+}
+
+.public-date {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.link-public {
+  text-decoration: none;
+}
+
+.public-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  background-color: white;
+  width: 40px;
+  border: none;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.public-button img {
+  width: 18px;
+}
+
+.public-button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.public-button img:hover {
+  cursor: pointer;
+}
+
+.date-conte {
+  display: flex;
+  gap: 5px;
+}
+
+.date-img {
+  border-radius: 50px;
+  border: 2px solid white;
+  box-shadow: -2px 1px 5px -1px rgba(192, 192, 192, 1);
+}
+
+.date-text {
+  padding: 4px;
+}
+
+.date-text h3 {
+  margin: 0;
+  font-size: 15px;
+  color: #203758;
+}
+
+.date-text p {
+  margin: 0;
+  font-size: 11px;
+  color: #788292;
+  padding-top: 4px;
+}
+
+.text {
+  padding-right: 15px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #203758;
+}
+
+.images {
+  display: flex;
+  gap: 12px;
+}
+/* imagenes en publicion */
