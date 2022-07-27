@@ -1,48 +1,45 @@
 import React from "react";
-import '../hoja-de-estilos/Public.css'
-import dots from '../assets/icons/dots.svg'
-import profile from '../assets/profile.jpg'
-const datos={
-  name:"sandro villegas",
-  fecha:"05 de junio,2023"
-}
-function Public() {
+import "../hoja-de-estilos/Public.css";
+import dots from "../assets/icons/dots.svg";
+import profile from "../assets/profile.jpg";
+import ContentImages from "./ContentImages";
+
+function Public({ newPublic }) {
+  console.log("desde public", newPublic);
   return (
-    <div class="public">
-      <button class="public-button">
+    <div className="public">
+      <button className="public-button">
         <img src={dots} alt="Menú de Opciones" />
       </button>
-      <div class="public-date">
-        <div class="date-conte">
+      <div className="public-date">
+        <div className="date-conte">
           <a
-            class="link-public"
+            className="link-public"
             href="https://twitter.com/yummta?lang=es"
             target="_blank"
           >
             <img
-              class="date-img"
+              className="date-img"
               src={profile}
               alt="Foto de perfil del usuario"
             />
           </a>
-          <div class="date-text">
+          <div className="date-text">
             <a
-              class="link-public"
+              className="link-public"
               href="https://twitter.com/yummta?lang=es"
               target="_blank"
             >
-              <h3>{datos.name}</h3>
+              <h3>Igor R</h3>
             </a>
-            <p>{datos.fecha}</p>
+            <p>27 de Julio 2022</p>
           </div>
         </div>
       </div>
-      <div class="text">
-        <p>
-          Hoy aprendí a usar Git. Aprendi a crear un branch, commitear mis
-          cambios, hacer pull request y mergearlo!
-        </p>
+      <div className="text">
+        <p>{newPublic}</p>
       </div>
+      <ContentImages />
     </div>
   );
 }

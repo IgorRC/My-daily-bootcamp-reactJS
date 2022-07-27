@@ -27,11 +27,11 @@ function Team() {
   console.log(posts);
 
   return (
-    <div class="teams">
+    <div className="teams">
       <h2>My team</h2>
       <div class="container-team">
         {posts.map((element) => {
-          console.log(element)
+          console.log(element);
           return (
             <div class="date-teams">
               <a class="link-team" href="#">
