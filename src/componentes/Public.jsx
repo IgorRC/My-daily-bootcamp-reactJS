@@ -30,9 +30,9 @@ function Public({ newPublic }) {
               href="https://twitter.com/yummta?lang=es"
               target="_blank"
             >
-              <h3>Paul Portillo</h3>
+              <h3>Igor R</h3>
             </a>
-            <p>04 de Julio, 2022</p>
+            <p>27 de Julio 2022</p>
           </div>
         </div>
       </div>
