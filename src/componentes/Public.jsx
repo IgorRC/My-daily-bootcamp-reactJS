@@ -2,7 +2,10 @@ import React from "react";
 import '../hoja-de-estilos/Public.css'
 import dots from '../assets/icons/dots.svg'
 import profile from '../assets/profile.jpg'
-
+const datos={
+  name:"sandro villegas",
+  fecha:"05 de junio,2023"
+}
 function Public() {
   return (
     <div class="public">
@@ -28,9 +31,9 @@ function Public() {
               href="https://twitter.com/yummta?lang=es"
               target="_blank"
             >
-              <h3>Paul Portillo</h3>
+              <h3>{datos.name}</h3>
             </a>
-            <p>04 de Julio, 2022</p>
+            <p>{datos.fecha}</p>
           </div>
         </div>
       </div>

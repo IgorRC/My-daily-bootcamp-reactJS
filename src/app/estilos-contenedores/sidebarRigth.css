@@ -1,0 +1,168 @@
+.sidebar-right{
+    margin-top: 20px;
+}
+.avatar1{ z-index: 3; }
+.avatar2{ z-index: 2; }
+.avatar3{ z-index: 1; }
+.news-footer .participants-text{
+  font-weight: 500;
+  font-size: 9px;
+  color: var(--gray);
+  color:#788292;
+  margin-left: 10px;
+}
+
+.news-card .news-article .news-button{
+    background-color: white;
+    opacity: .8;
+    font-weight: bold;
+    font-size: 11px;
+    z-index: 3;
+    transition: all 0.25s;
+    border-radius: 6px;
+    padding: 9px;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+    text-decoration: none;
+  }
+  .news-card .news-article .news-button:hover{ 
+    color: var(--catalina-blue);
+    background-color: white;
+    opacity: 1; 
+  }
+  .news-section .news-card .news-article{
+    max-width: 129px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 24px;
+    background-image: url("src/assets/instructors/Rectangle 34.png"); 
+    opacity: 0.9;
+  }
+.news-tittle{
+    color: white;
+}
+.news-text{
+    color: white    ;
+}
+
+  .news-section .news-card{
+    border-radius: 8px;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 1;
+    margin-top:20px;
+
+  }
+
+  .img-storie1{
+    
+    background-repeat: no-repeat;
+   
+  }
+  .img-storie:hover{
+    outline-color: white;
+  }
+  img-storie::before{
+    width: 115px;
+    height: 208px;
+    position: absolute;
+    content: "";
+    z-index: -1;
+    transition: all 1s;
+    opacity: 1;
+  }
+
+  .tittle-stories{
+    margin-top: 0;
+  }
+  .stories-sqare{
+    display: flex;
+    gap: 9px;
+  }
+  .frame-storie{
+    position: relative;
+  }
+
+  .profile-photo{
+    margin-right: 10px;
+  }
+  .tittle-stories{
+    color:#203758;
+    margin-bottom: 10px;
+  }
+  .news-footer{
+    display: flex;
+    margin-top: 17px;
+    margin-left: 15px;
+    align-items: center;
+  }
+
+  .news-section{
+    display:flex;
+  }
+
+.news-card{
+    background-color: #ffffff;
+    height: 232px;
+    margin-right: 15px;
+}
+
+.follow-recomend{
+  background-color: #ffffff;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.contactos-1{
+  margin-top: 20px;
+}
+.follow{
+  color: #203758;
+  padding-bottom: 20px;
+}
+.contacto-frank{
+  display: flex;
+  padding-top: 20px;
+  padding-left: 15px;
+  align-items: center;
+  
+}
+.contacto-paul{
+  display: flex;
+  padding-top: 15px;
+  padding-left: 15px;
+  align-items: center;
+
+}
+.correo{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.enlaces-follow{
+  margin-left: 100px;
+  text-decoration: none;
+  font-size: 11px;
+  color: #1877F2;
+  font-weight: 700;
+  background-color: #F0F7FF;
+  padding: 10px 20px 10px 20px;
+  border-radius: 7px;
+}
+.follow-spacing{
+  height: 150px;
+}
+.avatar{
+  margin-right: -5px;
+}
+.imagen-1{
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.imagen-2{
+  margin-left: 10px;
+  margin-top: 3px;
+}
